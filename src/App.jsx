@@ -1,14 +1,21 @@
 import './App.css'
-import { CountryDropdown } from './components/CountryDropdown'
+import { Accordion } from './components/accordion/accordion';
+import { CountryDropdown } from './components/country_dropdown/CountryDropdown';
 
 function App() {
 
   return (
     <>
       <div>
-          <h3>Public Holiday's List</h3>
+        <h3>Public Holiday's List</h3>
       </div>
-      <CountryDropdown />
+      <div className="m-4">
+        <CountryDropdown />
+      </div>
+      <div className="m-4">
+        <Accordion />
+      </div>
+
     </>
   )
 }

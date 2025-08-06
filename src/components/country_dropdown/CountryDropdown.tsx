@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./Country_drodpown.css";
-import { CountryDropdownService } from "../service/CountryDropdownService";
+import { CountryDropdownService } from "../../service/CountryDropdownService";
 
 interface State {
     countryList: Array<{
