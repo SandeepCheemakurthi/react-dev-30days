@@ -1,12 +1,13 @@
 import './App.css'
-import { Accordion } from './components/accordion/accordion';
+import { Accordion } from './components/accordion/Accordion';
 import { CountryDropdown } from './components/country_dropdown/CountryDropdown';
+import CustomForms from './components/CustomForms/CustomForms';
 
 function App() {
 
   return (
     <>
-      <div>
+      {/* <div>
         <h3>Public Holiday's List</h3>
       </div>
       <div className="m-4">
@@ -14,6 +15,9 @@ function App() {
       </div>
       <div className="m-4">
         <Accordion />
+      </div> */}
+      <div className="m-4 overflow-auto">
+        <CustomForms />
       </div>
 
     </>
